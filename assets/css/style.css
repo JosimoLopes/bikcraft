@@ -1,0 +1,8 @@
+@import url(./global.css);
+@import url(./header.css);
+
+/* Home */
+@import url(./home/intro.css);
+
+/* components */
+@import url(./components/btn.css);
