@@ -1,10 +1,10 @@
 .btn {
   padding: 16px 32px;
-  background: #eb5e28;
+  background: var(--pr-color-06);
   display: inline-block;
   border-radius: 4px;
   text-transform: uppercase;
-  color: #120500;
+  color: var(--pr-color-12);
   font-size: 18px;
   transition: 0.3s;
   font-family: "Poppins";
@@ -12,7 +12,7 @@
 }
 
 .btn:hover {
-  background: #d14712;
+  background: var(--pr-color-07);
 }
 
 @media (width <= 600px) {

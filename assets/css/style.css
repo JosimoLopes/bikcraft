@@ -1,8 +1,10 @@
 @import url(./global.css);
 @import url(./header.css);
+@import url(./colors.css);
 
 /* Home */
 @import url(./home/intro.css);
 
 /* components */
 @import url(./components/btn.css);
+@import url(./components/typography.css);
