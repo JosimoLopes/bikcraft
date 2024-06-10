@@ -4,6 +4,7 @@
 
 /* Home */
 @import url(./home/intro.css);
+@import url(./home/craft.css);
 
 /* Bikes */
 @import url(/assets/css/bikes/bikelist.css);
@@ -12,3 +13,4 @@
 @import url(./components/btn.css);
 @import url(./components/typography.css);
 @import url(./components/conatiner.css);
+@import url(./components/link.css);

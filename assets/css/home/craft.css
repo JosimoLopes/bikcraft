@@ -1,0 +1,100 @@
+.craft-bg {
+  background: var(--color-12);
+  box-shadow: inset 0 80px var(--color-00), inset 0 -80px var(--color-00);
+}
+
+.craft {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.craft-content a {
+  margin-bottom: 80px;
+}
+
+.craft-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.craft-content {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.craft-content > span {
+  display: block;
+  color: var(--color-06);
+  margin-bottom: 20px;
+}
+
+.craft-content h2 {
+  color: var(--color-00);
+  margin-bottom: 32px;
+}
+
+.craft-content h2 span {
+  color: var(--pr-color-06);
+}
+
+.craft-content > p {
+  margin-bottom: 20px;
+}
+
+.craft-content p {
+  color: var(--color-06);
+}
+
+.craft-content h3 {
+  color: var(--color-00);
+}
+
+.craft-advantages {
+  display: flex;
+  gap: 40px;
+}
+
+.craft-advantages div {
+  max-width: 30ch;
+}
+
+.craft-advantages div h3 {
+  margin-bottom: 8px;
+}
+
+.craft-advantages div img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (width <= 800px) {
+  .craft-bg {
+    box-shadow: initial;
+  }
+
+  .craft {
+    grid-template-columns: 1fr;
+  }
+
+  .craft-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .craft-img img {
+    display: none;
+  }
+
+  .craft-content a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (width <= 600px) {
+  .craft-advantages {
+    flex-direction: column;
+  }
+}

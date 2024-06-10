@@ -38,7 +38,7 @@
 
 .font-2-l {
   font-weight: 400;
-  font-size: calc(0.75rem + (1.5 - 0.75) * (100vw - 40rem) / (120 - 40));
+  font-size: calc(1rem + (1.5 - 1) * (100vw - 40rem) / (120 - 40));
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
 }
