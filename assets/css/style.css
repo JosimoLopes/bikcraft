@@ -5,6 +5,8 @@
 /* Home */
 @import url(./home/intro.css);
 @import url(./home/craft.css);
+@import url(./home/partnership.css);
+@import url(./home/testimonial.css);
 
 /* Bikes */
 @import url(/assets/css/bikes/bikelist.css);
