@@ -1,12 +1,16 @@
 @import url(./global.css);
 @import url(./header.css);
 @import url(./colors.css);
+@import url(./footer.css);
 
 /* Home */
 @import url(./home/intro.css);
 @import url(./home/craft.css);
 @import url(./home/partnership.css);
 @import url(./home/testimonial.css);
+
+/* Insurance */
+@import url(/assets/css/insurance/insurance.css);
 
 /* Bikes */
 @import url(/assets/css/bikes/bikelist.css);

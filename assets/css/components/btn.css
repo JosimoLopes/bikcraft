@@ -9,10 +9,21 @@
   transition: 0.3s;
   font-family: "Poppins";
   font-weight: 600;
+  max-width: max-content;
+}
+
+.btn.secondary {
+  background: var(--color-10);
+  color: var(--color-02);
 }
 
 .btn:hover {
   background: var(--pr-color-07);
+}
+
+.btn.secondary:hover {
+  background: var(--color-10);
+  opacity: 0.7;
 }
 
 @media (width <= 600px) {
