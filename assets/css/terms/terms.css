@@ -1,0 +1,19 @@
+.terms {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.terms h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.terms p + h2 {
+  margin-top: 40px;
+}
+
+.terms p {
+  color: var(--color-10);
+  max-width: 75ch;
+  margin-bottom: 24px;
+}

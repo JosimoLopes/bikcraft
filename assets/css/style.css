@@ -11,6 +11,7 @@
 
 /* Insurance */
 @import url(/assets/css/insurance/insurance.css);
+@import url(./terms/terms.css);
 
 /* Bikes */
 @import url(/assets/css/bikes/bikelist.css);
@@ -20,3 +21,4 @@
 @import url(./components/typography.css);
 @import url(./components/conatiner.css);
 @import url(./components/link.css);
+@import url(./components/title-bg.css);

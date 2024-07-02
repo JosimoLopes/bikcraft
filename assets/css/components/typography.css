@@ -22,6 +22,15 @@
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
 }
 
+/* Responsive */
+
+.font-2-s {
+  font-weight: 400;
+  font-size: calc(0.75rem + (1 - 0.75) * (100vw - 5rem) / (120 - 5));
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
 .font-2-m {
   font-weight: 500;
   font-size: calc(0.75rem + (1.5 - 0.75) * (100vw - 30rem) / (120 - 30));
@@ -31,7 +40,7 @@
 
 .font-1-l {
   font-weight: 400;
-  font-size: calc(0.75rem + (1.5 - 0.75) * (100vw - 40rem) / (120 - 40));
+  font-size: calc(1rem + (2 - 1) * (100vw - 5rem) / (120 - 5));
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
 }
