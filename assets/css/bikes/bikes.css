@@ -1,0 +1,19 @@
+.bikes-bg:nth-child(odd) {
+  background: var(--color-11);
+}
+
+.bikes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.bikes p {
+  color: var(--color-06);
+}
+
+.bikes-img span {
+  background-color: var(--color-12);
+}
